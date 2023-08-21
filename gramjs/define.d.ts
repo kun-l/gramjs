@@ -7,6 +7,7 @@ import TypeInputUser = Api.TypeInputUser;
 import TypeInputChannel = Api.TypeInputChannel;
 import bigInt from "big-integer";
 import { WriteStream } from "fs";
+import { Buffer } from "buffer";
 
 type ValueOf<T> = T[keyof T];
 type Phone = string;
